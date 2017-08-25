@@ -6,7 +6,7 @@ import sys
 if len(sys.argv) > 1:
     _board = Board(sys.argv[1])
 else:
-    _board = Board('simple.karelmap')
+    _board = Board('levels/17_student_level.karelmap')
 
 def _refresh(callback):
     def inner():
